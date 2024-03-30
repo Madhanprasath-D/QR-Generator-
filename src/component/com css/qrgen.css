@@ -1,0 +1,83 @@
+.continer{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.continer h3{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.continer img{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;margin: 10px;
+}
+.label_input{
+    width: 100%;
+    text-align: start;
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.input_box{
+    width: 96%;
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+.input_box:focus{
+    border-color: green;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: aliceblue;
+}
+.btn1{
+    background-color: rgb(24, 160, 24);
+    transition: 0.5s ease-in;
+}
+.btn1:hover{
+    background-color: rgb(18, 114, 18);
+}
+
+.btn2{
+    background-color: rgb(24, 160, 24);
+    transition: 0.5s ease-in;
+}
+.btn2:hover{
+    background-color: rgb(18, 114, 18);
+}
+.continer p{
+    margin: 10px;
+}
+
+@media only screen and (max-width:430px) {
+    .continer h3{
+        font-size: 20px;
+    }
+    .label_input{
+        font-size: 15px;
+    }
+    button{
+        padding: 8px 10px;
+        margin: 10px 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        color: aliceblue;
+    }
+    .btn_continer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
